@@ -7,11 +7,11 @@
 ## General info 
 This project is a simple weather application. When the user inputs a city, the Weather Dashboard with display the current weather an a five day forecast. This is done using the Open Weather Map API. Another feature of the Weather Dashboard is the use of local storage. It will save the user's preious searches. The user can then click on the button of previous cities searched and be directed to that respective city's weather information. 
 ## Technologies
--Bootstrap 4
--jQuery
--Open Weather API
+- Bootstrap 4
+- jQuery
+- Open Weather API
 ## Demo
-![demo of app](demoimage.JPG)
+![demo of app](demoImage.JPG)
 ## Code Example
 ```
 $.ajax({
@@ -50,4 +50,4 @@ $.ajax({
 ## Authors and Acknowledgement
 Isha Khosla is the main auther with guidance from Simon Rennoks
 ## Deployed Application
-
+https://ishakhosla131.github.io/Weather/.
