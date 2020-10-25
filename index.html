@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <aside class="col-lg-4 col-sm-4 bg-light">
+                <h3>Search for a City:</h3>
+                <div class="input-group mb-3">
+                    <input type="text" id="user-input" class="form-control" placeholder="city name" aria-describedby="button-addon2">
+                    <div class="input-group-append" id="user-input">
+                        <button class="btn btn-outline-primary" type="button" id="button-addon2">search</button>
+                    </div>
+                </div>
+                <div id="local-storage" class=bg-light></div>
+            </aside>
+            <main class="col-lg-8 col-sm-8" id="main">
+
+                <h2 id="city-name"> </h2>
+                <div id="current-weather">
+
+                </div>
+                <div class="container">
+                    <h2 class= "invisible" id="title">Five Day Forecast:</h2>
+                    <div class="row" id="five-day">
+                        
+                    </div>
+
+                </div>
+
+            </main>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
